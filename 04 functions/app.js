@@ -57,14 +57,26 @@ superMooieGlobalFunction()
 superMooieGlobalFunction()
 superMooieGlobalFunction()
 
-class App
-{
-    runApplication()
-    {
-        console.log("hello world!");
-        //code gaat hier!
+class App {
+    runApplication() {
+        console.log("hello world!")
+        superMooieGlobalFunction()
+    }
+
+    newClassFunction() {
+        console.log("hello world in de nieuwClassFunction")
+    }
+
+    anotherFunctionWithArguments(aArgument) {
+        console.log("kom maar met je argument")
+        console.log("hier:")
+        console.log(aArgument)
     }
 }
 
-let app = new App();
-app.runApplication();
+    let app = new App()
+    
+    app.runApplication()
+    app.newClassFunction()
+    app.anotherFunctionWithArguments("mijn argument is iets...")
+    
