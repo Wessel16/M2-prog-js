@@ -79,4 +79,36 @@ class App {
     app.runApplication()
     app.newClassFunction()
     app.anotherFunctionWithArguments("mijn argument is iets...")
+
+
+
+    class App2 
+    {
+        mario()
+        {
+            console.log("MARIO!!")
+        }
+        bwah()
+        {
+            return "BWAHAHA!!!" 
+             
+        }
+        optellen(Getal1, Getal2)
+        {
+            return Getal1 + Getal2 
+        }
+        klant()
+        {
+            console.log("ik wil kaas")
+        }
+    }
+    
+        let class2 = new App2()
+        class2.mario()
+        let bwah = class2.bwah()
+        let Getal3 = class2.optellen(1,2)
+        class2.klant()
+
+        console.log(Getal3)
+        console.log(bwah)
     
